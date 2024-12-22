@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+img{
+  height:60px;
+  width: 60px;
+  object-fit:contain;
+}
+.btn {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid gray;
+  gap: 1rem;
+  width: 100%;
+  padding:0rem 0.5rem;
+  cursor:pointer;
+
+}
+.btn-container :hover{
+  background-color: #696969;
+}
+
+.btn>p {
+  width: 100%;
+}
+
+.btn span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+}
